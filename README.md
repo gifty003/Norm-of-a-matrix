@@ -11,42 +11,45 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 ## Program:
 ```Python
 # Register No: 22007928
-# Developed By: Kavinraja D
+# Developed By: Giftson Rajarathinam N
 # 1-Norm of a Matrix
 
 import numpy as np
-mat =np.array(eval(input()))
-ans=np.linalg.norm(mat,1)
-norm_of_matrix = "{:.2f}".format(ans)
-print(norm_of_matrix)
+a=np.array(eval(input()))
+soln=np.linalg.norm(a,1)
+norm="{:.2f}".format(soln)
+print(norm)
 
 # 2-Norm of a Matrix
 
 import numpy as np
-mat=np.array(eval(input()))
-ans=np.linalg.norm(mat,2)
-norm_of_matrix='{:.2f}'.format(ans)
-print(norm_of_matrix)
+a=np.array(eval(input()))
+soln=np.linalg.norm(a,2)
+norm="{:.2f}".format(soln)
+print(norm)
 
 # Infinity Norm of a Matrix
 
 import numpy as np
-mat=np.array(eval(input()))
-ans=np.linalg.norm(mat,np.inf)
-norm_of_matrix="{:.2f}".format(ans)
-print(norm_of_matrix)
+a=np.array(eval(input()))
+soln=np.linalg.norm(a,np.inf)
+norm="{:.2f}".format(soln)
+print(norm)
 ```
 ## Output:
 
 ### 1-Norm of a Matrix
-![n1](https://user-images.githubusercontent.com/119875375/214384785-047264e7-6f2d-40f8-ace3-b34c5c982608.png)
+![image](https://github.com/gifty003/Norm-of-a-matrix/assets/145822352/a1c60536-8f44-496b-b35c-b2c680c1db67)
+
 
 ### 2-Norm of a Matrix
-![n2](https://user-images.githubusercontent.com/119875375/214384893-fae89e18-5bce-4983-b71c-9a70842818fa.png)
+![image](https://github.com/gifty003/Norm-of-a-matrix/assets/145822352/2535f0fd-ee4e-4d61-9167-8f5f743b2bca)
+
 
 
 ### Infinity Norm of a Matrix
-![n3](https://user-images.githubusercontent.com/119875375/214384921-521f3eb2-f4ea-463a-b822-1e9c8b86a8e0.png)
+![image](https://github.com/gifty003/Norm-of-a-matrix/assets/145822352/ab9bd3fc-2a87-43a0-a033-d44f0e3a2364)
+
 
 
 ## Result
